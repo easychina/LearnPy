@@ -1,5 +1,5 @@
 import tensorflow as tf
-
+#gpu
 with tf.Session() as sess:
   #with tf.device("/gpu:0"):
     matrix1 = tf.constant([[3., 3.]])
