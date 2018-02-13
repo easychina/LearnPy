@@ -1,1 +1,15 @@
 f3db5b1d20ce10ac4523693db8a6dfdc17a6515b
+¡­or create a new repository on the command line
+
+echo "# LearnPy" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/easychina/LearnPy.git
+git push -u origin master
+¡­or push an existing repository from the command line
+
+git remote add origin https://github.com/easychina/LearnPy.git
+git push -u origin master
+¡­or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
